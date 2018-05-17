@@ -78,12 +78,7 @@ class Owner
   end
 
   def list_pets
-    @pets[:fishes].each do |fish|
-    end
-    @pets[:dogs].each do |dog|
-    end
-    @pets[:cats].each do |cat|
-    end
+    puts "I have #{buy_fish(name)}, #{buy_dog(name)}, #{buy_cat(name)."
   end
 
 end
