@@ -66,12 +66,15 @@ class Owner
     self.reset_all
     @pets[:fishes].each do |fish|
       fish.mood = "nervous"
+      @pets[:fishes => []]
     end
     @pets[:dogs].each do |dog|
       dog.mood = "nervous"
+      @pets[:dogs => []]
     end
     @pets[:cats].each do |cat|
       cat.mood = "nervous"
+      @pets[:cats => []]
     end
   end
 
