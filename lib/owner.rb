@@ -78,7 +78,7 @@ class Owner
   end
 
   def list_pets
-    puts "I have #{buy_fish(name)}, #{buy_dog(name)}, #{buy_cat(name)."
+    puts "I have #{@pets(:fishes)}, #{@pets(:dogs)}, #{@pets(:cats)."
   end
 
 end
