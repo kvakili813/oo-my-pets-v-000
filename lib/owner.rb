@@ -63,7 +63,6 @@ class Owner
   end
 
   def sell_pets
-    self.reset_all
     @pets[:fishes].each do |fish|
       fish.mood = "nervous"
       @pets[:fishes] = []
