@@ -32,6 +32,7 @@ class Owner
     @pets
   end
 
-  def buy_fish
-    
+  def buy_fish(name)
+    name = "Bubbles"
+    @pets[0] << name 
 end
