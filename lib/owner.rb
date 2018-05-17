@@ -77,4 +77,13 @@ class Owner
     end
   end
 
+  def list_pets
+    @pets[:fishes].each do |fish|
+    end
+    @pets[:dogs].each do |dog|
+    end
+    @pets[:cats].each do |cat|
+    end
+  end
+
 end
